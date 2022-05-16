@@ -14,7 +14,9 @@ async def get_messages():
 
     client_dialogs = await client.get_dialogs()
     
-    entity = get_id(client_dialogs,"Patadevs")
+    #Insert the contact name, group name , or chat name here
+    conversation_title = "Patadevs"
+    entity = get_id(client_dialogs,conversation_title)
     
     
 
